@@ -1,0 +1,7 @@
+{
+	"name": "tasktrak",
+	"dependencies": {
+		"jasmine-node": "*",
+		"coffee-script": "*"
+	}
+}
