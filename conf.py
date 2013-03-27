@@ -103,7 +103,7 @@ html_theme = 'default'
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
-#html_title = None
+html_title = "TaskTrak"
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #html_short_title = None
@@ -183,8 +183,8 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'TaskTrak.tex', u'TaskTrak Documentation',
-   u'Allan Davis', 'manual'),
+  ('index', 'TaskTrak.tex', u'TaskTrak',
+   u'Allan Davis', 'howto'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -213,7 +213,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'tasktrak', u'TaskTrak Documentation',
+    ('index', 'tasktrak', u'TaskTrak',
      [u'Allan Davis'], 1)
 ]
 
@@ -227,8 +227,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'TaskTrak', u'TaskTrak Documentation',
-   u'Allan Davis', 'TaskTrak', 'One line description of project.',
+  ('index', 'TaskTrak', u'TaskTrak',
+   u'Allan Davis', 'TaskTrak', 'Tutorial on developing Alloy Applications.',
    'Miscellaneous'),
 ]
 
