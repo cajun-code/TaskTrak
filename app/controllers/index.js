@@ -15,7 +15,11 @@ var createAddButton = function(){
 }
 
 var addClick = function(e){
-  alert("Ready to Add Task");
+  //alert("Ready to Add Task");
+  
+  var tc = Alloy.createController("task");
+  
+  tc.getView().open({animated:true});
 }
 
 $.index.open();

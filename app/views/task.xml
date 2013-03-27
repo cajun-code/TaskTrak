@@ -1,4 +1,8 @@
 <Alloy>
-	<View class="container">
-	</View>
+	<Window id="taskWin" class="container" modal="true" title="Task" onOpen="setupTask">
+    <TextField id="title" hintText="Title"/>
+    <Label id="labelComplete" text="Complete" />
+    <Switch id="complete" value="false" title="Complete"/>
+    <TextArea id="note" hintText="Note"/>
+	</Window>
 </Alloy>
