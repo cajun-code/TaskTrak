@@ -63,3 +63,9 @@ Creating the Task Controller
   alloy generate controller task
   
   
+  
+  
+Binding to Data
+------------------
+
+  alloy generate model task sql title:String note:String complete:Boolean
