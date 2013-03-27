@@ -14,7 +14,10 @@ Creating The Project
 	
 	$ alloy run
 	
+	$ titanium build -p iphone
+	
 
 Laying out the List
 --------------------
 
+	
